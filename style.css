@@ -1,0 +1,23 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    border-style: solid;
+    padding: 20px 5px 20px 5px;
+    border-radius: 15px;
+    align-items: center;
+    -webkit-box-shadow: 10px 10px 73px 14px orange;
+    -moz-box-shadow: 10px 10px 73px 14px orange;
+    background-image: linear-gradient(pink, yellow)
+}
+
+.text-field, .password, .submit-btn{
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.text-field:hover, .password:hover{
+    background-color: yellowgreen;
+    cursor: text;
+}
